@@ -1,4 +1,4 @@
-FROM selenium/node-firefox:latest
+FROM selenium/standalone-firefox:latest
 
 USER root
 
