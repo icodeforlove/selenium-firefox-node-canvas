@@ -4,6 +4,6 @@ USER root
 
 RUN apt-get update -y && \
 	apt-get install --no-install-recommends -y -q \
-		build-essential curl git
+		build-essential curl git vim
 
 RUN apt-get install --no-install-recommends -y -q libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev g++
